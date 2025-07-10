@@ -1,9 +1,6 @@
 "use client";
 
-// File: app/profile/detail/[id]/page.tsx
-// This file is used to display the details of a profile based on the ID passed in the URL.';
 import Link from "next/link";
-
 
 import { use, useState } from "react";
 

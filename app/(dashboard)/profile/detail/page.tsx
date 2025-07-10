@@ -4,7 +4,10 @@ export const metadata = {
   title: "Profile Detail",
 };
 
-export default function Page() {
+export default async function Page() {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users/1");
+  const data = await res.json();
+
   return (
     <main>
       <h1 className="text-2xl font-bold">Profile Detail Page</h1>
