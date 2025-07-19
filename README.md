@@ -10,3 +10,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
 - pnpm i
 - pnpm dev
+- pnpm i use-debounce
+
+## Partial Prerendering
+
+- pnpm i next@canary

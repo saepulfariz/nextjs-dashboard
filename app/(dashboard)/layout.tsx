@@ -6,6 +6,8 @@ export const metadata = {
   title: "Dashboard Page",
 };
 
+export const experimental_ppr = true;
+
 export default function RootLayout({
   children,
 }: {
